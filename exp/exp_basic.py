@@ -13,7 +13,8 @@ from models import (
     Transformer,
     TCN,
     Medformer,
-    Medixformer
+    Medixformer,
+    Cardioformer
 )
 
 
@@ -33,7 +34,8 @@ class Exp_Basic(object):
             "Transformer": Transformer,
             "TCN": TCN,
             "Medformer": Medformer,
-            "Medixformer": Medixformer
+            "Medixformer": Medixformer,
+            "Cardioformer": Cardioformer
         }
         self.device = self._acquire_device()
         self.model = self._build_model().to(self.device)
