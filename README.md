@@ -25,10 +25,10 @@ Our approach introduces four key innovations that leverage the unique characteri
 
 We evaluate Cardioformer on three benchmark ECG datasets using consistent experimental setups. The results demonstrate its superior performance over four strong baselines, achieving the highest average ranking across all six evaluation metrics. Additionally, Cardioformer exhibits strong cross-dataset generalization, highlighting the **universality and robustness** of our proposed model across diverse ECG classification tasks.
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://raw.githubusercontent.com/KMobin555/Cardioformer/main/assets/cardioformer_pipeline.png" alt="Cardioformer Pipeline" width="80%">
 </p>
 
-sdf
+sdf -->
 
 ---
