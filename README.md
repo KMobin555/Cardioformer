@@ -31,7 +31,7 @@ We evaluate Cardioformer on three benchmark ECG datasets using consistent experi
 # Token Embedding Method
 
 <p align="center">
-  <img src="assets/token_embed.jpg" alt="Cardioformer's Token embeddings" width="80%">
+  <img src="assets/token_embed.jpg" alt="Cardioformer's Token embeddings" width="50%">
 </p>
 
 we propose Cardioformer considering inter-channel dependencies (multi-channel), temporal properties (multi-timestamp), and multifaceted scale of temporal patterns (multi-granularity).
