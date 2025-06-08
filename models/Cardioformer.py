@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from layers.Cardioformer_EncDec import Encoder, EncoderLayer
-from layers.SelfAttention_Cardio import MedixformerLayer
+from layers.SelfAttention_Cardio import CardioformerLayer
 from layers.Embed import ListPatchEmbedding
 import numpy as np
 
@@ -45,7 +45,7 @@ class Model(nn.Module):
         self.encoder = Encoder(
             [
                 EncoderLayer(
-                    MedixformerLayer(
+                    CardioformerLayer(
                         len(patch_len_list),
                         configs.d_model,
                         configs.n_heads,
